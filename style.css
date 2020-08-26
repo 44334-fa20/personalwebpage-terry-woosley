@@ -1,1 +1,32 @@
 /*Personal Web Page Style Sheet */
+body{
+    background-color: rgb(6, 207, 191);
+}
+h1{
+    font-weight: bold;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+#wrapper{
+    display: flex;
+    flex-direction: row;
+}
+#left{
+    flex: 5;
+    width: 50%;
+}
+#right{
+    flex: 5;
+    width: 50%;
+}
+a:hover{
+    color: blue;
+}
+a:active{
+    color: black;
+}
+a:visited{
+    color: purple;
+}
